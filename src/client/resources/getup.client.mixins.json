@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.nicolas.getup.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "GuiMixin",
+    "SoundEngineMixin",
+    "SoundManagerAccessor",
+    "GameRendererMixin",
+    "GuiRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

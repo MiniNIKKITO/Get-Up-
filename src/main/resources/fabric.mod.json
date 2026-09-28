@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "getup",
+  "version": "${version}",
+  "name": "Get Up!",
+  "icon": "assets/getup/icon.png",
+  "description": "A Poppy Playtime-inspired replacement for the singleplayer Minecraft death screen.",
+  "authors": [
+    "Nicolas"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nicolas.getup.client.GetUpClient"
+    ],
+    "modmenu": [
+      "com.nicolas.getup.client.GetUpModMenu"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "getup.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "targets": { "swap": {} },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "getup:post/exposure",
+      "inputs": [{ "sampler_name": "In", "target": "minecraft:main" }],
+      "output": "swap",
+      "uniforms": { "ExposureConfig": [{ "name": "Exposure", "type": "float", "value": 32.0 }] }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "getup:post/exposure",
+      "inputs": [{ "sampler_name": "In", "target": "swap" }],
+      "output": "minecraft:main",
+      "uniforms": { "ExposureConfig": [{ "name": "Exposure", "type": "float", "value": 32.0 }] }
+    }
+  ]
+}
