@@ -1,51 +1,128 @@
-# Get Up!
+<br>
+<br>
 
-Fabric client mod for Minecraft 26.2.
+![Get Up!](https://cdn.modrinth.com/data/cached_images/02528b40db9ccda322e4161fdbb45c58b95a3ef6.png)
 
-Version 1.3.3 continues the stable Get Up! release line with the custom death presentation, post-respawn exposure recovery, independent HUD fade, and Mod Menu configuration.
+<p align="center">
+  - A new Death Animation  -
+</p>
 
-The mod bundles its shader library dependency so Iris is not required.
-
-Build with JDK 25:
-
-```text
-gradle build
-```
-
-The generated mod jar will be in `build/libs/`.
-
-## Configuration
-
-Open the mod in **Mod Menu** and press its configuration button. The following timings can be edited in seconds:
-
-- You died delay
-- Get up delay
-- Black-to-white transition
-- Exposure recovery
-- Vanilla Disc 13 death music (loaded directly from Minecraft)
-
-The configuration is saved to `config/getup.properties` and persists between launches.
-
-The existing chat commands remain available:
-
-- `/getup set you_died <seconds>`
-- `/getup set get_up <seconds>`
-- `/getup set white <seconds>`
-- `/getup set exposure <seconds>`
-- `/getup get`
-- `/getup reset`
-
-The default timings are 2s / 5s / 2s / 2s respectively. The Disc 13 pitch transition follows the black-to-white transition, and both Disc 13 fade-out and vanilla game-audio fade-in use the full exposure-recovery duration.
+![----------------------------------](https://cdn.modrinth.com/data/cached_images/fed8c7734d772119f34cadaf571552547a154135.png)
 
 
-## Version 1.3.0
-- Added an ON/OFF toggle for the entire mod in Mod Menu configuration.
-- On singleplayer respawn, all currently loaded hostile mobs (`Monster`) are discarded immediately. Passive mobs are untouched.
+<p align="center">
+<strong>A fresh look</strong> of the minecraft death animation<br>
+inspired directly by the <strong>Poppy Playtime</strong><br>
+<strong>death animation</strong> sequence,<br>
+designed by <strong>Mob Entertainment</strong><br>
+and restyle in a <strong>Minecrafy</strong> way</p>
 
-## Version 1.3.3
-- Added Minecraft's vanilla Disc 13 as the death-screen music without bundling a copy of the audio file.
-- Disc 13 starts immediately on death at normal pitch and volume.
-- If the disc finishes before Get Up! is pressed, it remains silent and does not restart.
-- When Get Up! is activated, Disc 13's pitch rises to Minecraft's maximum effective pitch over the black-to-white transition.
-- When maximum white is reached, Disc 13 fades out over half of the configured exposure-recovery duration.
-- At the same moment, normal Minecraft audio fades in over the full configured exposure-recovery duration.
+<br>
+
+![----------------------------------](https://cdn.modrinth.com/data/cached_images/fed8c7734d772119f34cadaf571552547a154135.png)
+
+<p align="center">
+  <strong>
+    <font size="5">Features</font>
+  </strong>
+</p>
+
+<br>
+
+<p align="center">
+This mod not only adds a new animation, but also recodes the respawning system:
+</p>
+
+<br>
+
+<table width="100%">
+<tr>
+<td width="50%">
+<h4><strong>Death Animation</strong></h4>
+
+> Inspired by the Poppy Playtime death animation, adapted to the Minecraft style.
+
+<details>
+<summary>Preview</summary>
+
+<img src="https://cdn.modrinth.com/data/cached_images/107247222afff808dbaacab1724176b02a0658dd.gif" alt="death_animation_preview">
+
+</details>
+
+</td>
+
+<td width="50%">
+<h4><strong>Respawning</strong></h4>
+
+> A new day starts when you respawn. All creatures that can hurt you are gone.
+
+<details>
+<summary>Preview</summary>
+  
+<img src="https://cdn.modrinth.com/data/cached_images/c4a049b2a966a8c8b1b1581bfcd006ddb665a3ab.gif" alt="death_animation_preview2">
+  
+</details>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<h4><strong>Quit to Menu</strong></h4>
+
+> New "Quit to Menu" button placed on left-top corner.
+  
+<details>
+<summary>Preview</summary>
+<img src="https://cdn.modrinth.com/data/cached_images/cff707660694291a60e834a2dcc4c63fbe7bf0a7.gif" alt="death_animation_preview3">
+</details>
+
+</td>
+
+<td width="50%">
+<h4><strong>Configuration</strong></h4>
+
+> You'll be able to configure the duration and features of the animation and the mod.
+
+<details>
+<summary>Preview</summary>
+<img src="https://cdn.modrinth.com/data/cached_images/3825e81559adf2cd43b2a44c87a283c07a0173f1.png" alt="death_animation_config_preview">
+</details>
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  Feel free to add this mod on your Modpacks
+</p>
+
+<br>
+
+![----------------------------------](https://cdn.modrinth.com/data/cached_images/fed8c7734d772119f34cadaf571552547a154135.png)
+
+<p align="center">
+  <strong>
+    <font size="5">More of my work</font>
+  </strong>
+</p>
+
+<br>
+
+<p align="center">
+  If you're interested in exploring more of my work, feel free to check out my other projects:
+</p>
+
+<p align="center">
+  <a href="https://modrinth.com/modpack/simpleminecraft">
+    <img src="https://cdn.modrinth.com/data/cached_images/eb7bd1590eb7c4afea8521990a2a2827b5c3a69e.png" alt="SIMPLY: Survival"width="25%">
+    <a>
+  <a href="https://modrinth.com/modpack/realistic-survival">
+    <img src="https://cdn.modrinth.com/data/cached_images/13a317ab94bc3f8e765e76f9f637d963a4640820.png" alt="SIMPLY: Realistic" width="25%">
+    </a>
+  <a href="https://modrinth.com/project/JcQWFZMd">
+    <img src="https://cdn.modrinth.com/data/cached_images/f8c256532e2654fb9a086bf19e0d88f63dd401cf.png" alt="SIMPLY: Mincaland" width="25%">
+    </a>
+  <a href="https://modrinth.com/modpack/simply--create">
+    <img src="https://cdn.modrinth.com/data/cr3Dcv2K/51945297635ddbda4541867c97c85cc84b0fd664.png" alt="SIMPLY: Create"width="25%">
+    <a>
+</p>
